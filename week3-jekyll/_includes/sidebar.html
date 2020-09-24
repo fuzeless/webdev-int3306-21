@@ -1,0 +1,45 @@
+{% if page.nav == "HTML" %}
+<div class="sidebar">
+  <ul>
+    <li><a href="./headings.html" {% if page.sidebar=="Headings" %} class="active" {% endif %}>Headings</a></li>
+    <li><a href="./paragraphs.html" {% if page.sidebar=="Paragraphs" %} class="active" {% endif %}>Paragraphs</a></li>
+    <li><a href="./links.html" {% if page.sidebar=="Links" %} class="active" {% endif %}>Links</a></li>
+    <li><a href="./images.html" {% if page.sidebar=="Images" %} class="active" {% endif %}>Images</a></li>
+    <li><a href="./lists.html" {% if page.sidebar=="Lists" %} class="active" {% endif %}>Lists</a></li>
+    <li><a href="./tables.html" {% if page.sidebar=="Tables" %} class="active" {% endif %}>Tables</a></li>
+    <li><a href="./forms.html" {% if page.sidebar=="Forms" %} class="active" {% endif %}>Forms</a></li>
+  </ul>
+</div>
+{% endif %}
+
+{% if page.nav == "CSS" %}
+<div class="sidebar">
+  <ul>
+    <li><a href="./syntax.html" {% if page.sidebar=="Syntax" %} class="active" {% endif %}>Syntax</a></li>
+    <li><a href="./selectors.html" {% if page.sidebar=="Selectors" %} class="active" {% endif %}>Selectors</a></li>
+    <li><a href="./colors.html" {% if page.sidebar=="Colors" %} class="active" {% endif %}>Colors</a></li>
+    <li><a href="./backgrounds.html" {% if page.sidebar=="Backgrounds" %} class="active" {% endif %}>Backgrounds</a></li>
+    <li><a href="./margins.html" {% if page.sidebar=="Margins" %} class="active" {% endif %}>Margins</a></li>
+    <li><a href="./sizes.html" {% if page.sidebar=="Sizes" %} class="active" {% endif %}>Sizes</a></li>
+    <li><a href="./texts.html" {% if page.sidebar=="Texts" %} class="active" {% endif %}>Texts</a></li>
+    <li><a href="./fonts.html" {% if page.sidebar=="Fonts" %} class="active" {% endif %}>Fonts</a></li>
+  </ul>
+</div>
+{% endif %}
+
+{% if page.nav == "JS" %}
+<div class="sidebar">
+  <ul>
+    <li><a href="./syntax.html" {% if page.sidebar=="Syntax" %} class="active" {% endif %}>Syntax</a></li>
+    <li><a href="./variables.html" {% if page.sidebar=="Variables" %} class="active" {% endif %}>Variables</a></li>
+    <li><a href="./operators.html" {% if page.sidebar=="Operators" %} class="active" {% endif %}>Operators</a></li>
+    <li><a href="./data_types.html" {% if page.sidebar=="Data types" %} class="active" {% endif %}>Data types</a></li>
+    <li><a href="./functions.html" {% if page.sidebar=="Functions" %} class="active" {% endif %}>Functions</a></li>
+    <li><a href="./objects.html" {% if page.sidebar=="Objects" %} class="active" {% endif %}>Objects</a></li>
+    <li><a href="./events.html" {% if page.sidebar=="Events" %} class="active" {% endif %}>Events</a></li>
+    <li><a href="./conditions.html" {% if page.sidebar=="Conditions" %} class="active" {% endif %}>Conditions</a></li>
+    <li><a href="./loops.html" {% if page.sidebar=="Loops" %} class="active" {% endif %}>Loops</a></li>
+    <li><a href="./regexp.html" {% if page.sidebar=="RegExp" %} class="active" {% endif %}>RegExp</a></li>
+  </ul>
+</div>
+{% endif %}
