@@ -68,12 +68,12 @@
 /* Button Styling */
 .sidebar-button {
   width: 100px;
-  height: 50px;
+  height: 92vh;
 }
 
 /* Button hover activity */
-.sidebar-button:hover ~ .sidebar {
-  display: flex;
+.sidebar-button:hover ~ .sidebar, .sidebar:hover {
+  display: block;
 }
 
 /* Content Styling */
@@ -94,7 +94,7 @@
     position: fixed;
     top: 0;
   }
-  .topnavbar-button:hover ~ .sidebar {
+  .topnavbar-button:hover ~ .sidebar, .sidebar:hover {
     display: flex;
   }
 }
